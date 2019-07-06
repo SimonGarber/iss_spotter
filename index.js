@@ -46,4 +46,5 @@ const { nextISSTimesForMyLocation } = require('./iss')
         }
         printPassTimes(passTimes);
     });
-
+    
+module.exports = { printPassTimes };
